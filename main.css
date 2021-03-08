@@ -2,4 +2,65 @@
 
 body {
     background: white;
+    font-weight: bold;
 }
+/*BOTTONE*/
+
+.ta-btn {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.ta-btn-outline {
+    border: 1px solid #2786fd;
+}
+
+.ta-btn-outline:hover {
+    background: #002655;
+}
+/* HEADER  NAV*/
+
+.main-header .navi {
+    height: 80px;
+}
+
+.navi-logo img {
+    padding-top: 20px;
+    width: 170px;
+}
+
+.hamburger i{
+    color: #4f96fe;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.navi .list1 a {
+   color: #415378;
+   text-decoration: none;
+   transition: color .2s;
+}
+
+.navi .list1 {
+    padding-top: 30px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.navi .list2 {
+    padding-top: 25px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.navi .list2 a {
+    color: #415378;
+    text-decoration: none;
+    transition: color .2s;
+ }
+
+ .list1 a:hover,
+ .list2 a:hover {
+    color: #2384fd;
+ }
+ 
