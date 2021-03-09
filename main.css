@@ -513,3 +513,24 @@ body {
 .list-inline {
     text-align: center;
 }
+/*PROMO*/
+
+.promo {
+    background: linear-gradient(#003fb8, #00239d);
+    padding-bottom: 50px;
+}
+
+.promo h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.btn {
+    color: #1576ff;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px;
+}
