@@ -335,6 +335,7 @@ body {
     color: #fff;
     font-size: 30px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .customers th {
@@ -349,10 +350,6 @@ body {
     color: #0ebdcd;
 }
 
-.customers table {
-    border: 0;
-    border-top: 1px solid #fff;
-}
 
 /*ROCKER*/
 .rocker {
@@ -376,8 +373,27 @@ body {
     transform: translateX(-50%);
     padding-top: 30px;
     padding-bottom: 30px;
+    border-radius: 2%;
 }
 
 .rockerbox .text-rocker {
+    padding-top: 30px;
     color: #606d8a;
+    font-size: 20px;
+}
+
+.rockerbox h5 {
+    color: #031c4e;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.rockerbox .texth {
+    color: #5e6d8b;
+}
+
+.rockerbox .linkrocker a {
+    padding-top: 50px;
+    color: #227dff;
 }
