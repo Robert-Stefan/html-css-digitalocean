@@ -5,9 +5,11 @@ body {
     font-weight: bold;
 }
 /*BOTTONE*/
+
 .main-header .navi .list2 .btn.mrg-top {
     margin-top: 0px;
 }
+
 .hero .registration-form.ta-btn {
     padding: 5px;
     font-size: 16px;
@@ -29,6 +31,7 @@ body {
 .navi-logo img {
     padding-top: 20px;
     width: 170px;
+    cursor: pointer;
 }
 
 .hamburger i{
@@ -166,6 +169,7 @@ body {
     display: inline-block;
     margin: 0 10px;
     width: calc((100% / 2) - 34px);
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -424,7 +428,7 @@ body {
         margin-top: -30px;
         color: gray;
         opacity: 1;
-        }
+    }
 
     .rocker .rockerbox .destra {
         font-size: 50px;
@@ -434,7 +438,7 @@ body {
         margin-top: -30px;
         color: black;
         opacity: 1;
-        }
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -564,6 +568,7 @@ body {
     font-size: 30px;
     margin: 0 5px;
     padding-bottom: 15px;
+    cursor: pointer;
 }
 
 .footer h4 {
@@ -577,6 +582,7 @@ body {
     margin-left: -35px;
     font-size: 15px;
     padding: 5px 0;
+    cursor: pointer;
 }
 
 .footer h4 {
