@@ -5,8 +5,10 @@ body {
     font-weight: bold;
 }
 /*BOTTONE*/
-
-.ta-btn {
+.main-header .navi .list2 .btn.mrg-top {
+    margin-top: 0px;
+}
+.hero .registration-form.ta-btn {
     padding: 5px;
     font-size: 16px;
 }
@@ -49,9 +51,10 @@ body {
 }
 
 .navi .list2 {
-    padding-top: 25px;
+    padding-top: 11px;
     margin-right: 20px;
     font-size: 15px;
+    margin-top: 15px;
 }
 
 .navi .list2 a {
@@ -532,5 +535,50 @@ body {
     font-weight: bold;
     margin-top: 20px;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
+}
+/*FOOTER*/
+
+.footer {
+    background-color: #031c4e;
+    padding-bottom: 50px;
+}
+
+.footer img {
+    padding-top: 60px;
+}
+
+.footer .text1 {
+    color: #8b94a9;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.footer .text2 {
+    color: #596785;
+    font-size: 18px;
+}
+
+.footer i {
+    color: #7a859d;
+    font-size: 30px;
+    margin: 0 5px;
+    padding-bottom: 15px;
+}
+
+.footer h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer li {
+    color: #a4acbb;
+    list-style: none;
+    margin-left: -35px;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.footer h4 {
+    padding-top: 60px;
 }
