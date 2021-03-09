@@ -39,6 +39,7 @@ body {
    color: #0a2253;
    text-decoration: none;
    transition: color .2s;
+   padding: 0 5px;
 }
 
 .navi .list1 {
@@ -58,6 +59,10 @@ body {
     text-decoration: none;
     transition: color .2s;
  }
+
+ .navi .list2 li:not(:last-child) {
+    padding: 0 5px;
+}
 
  .list1 a:hover,
  .list2 a:hover {
