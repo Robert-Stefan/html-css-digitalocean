@@ -322,3 +322,62 @@ body {
 .features img {
     padding-top: 50px;
 }
+
+/*CUSTOMERS*/
+
+.customers {
+    background: linear-gradient(#003ab7, #0041bf);
+    padding-bottom: 50px;
+}
+
+.customers h2 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.customers th {
+    color: #fff;
+}
+
+.customers td {
+    color: #99b0e1;
+}
+
+.customers a {
+    color: #0ebdcd;
+}
+
+.customers table {
+    border: 0;
+    border-top: 1px solid #fff;
+}
+
+/*ROCKER*/
+.rocker {
+    background-color: #f3f5f9;
+    padding-bottom: 70px;
+}
+
+.rocker h2 {
+    color: #031c4e;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rocker .rockerbox {
+    background-color: #fff;
+    position: relative;
+    width: 50%;
+    left: 50%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    transform: translateX(-50%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rockerbox .text-rocker {
+    color: #606d8a;
+}
