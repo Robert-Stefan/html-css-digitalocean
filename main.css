@@ -245,6 +245,7 @@ body {
 .slide .destra {
     opacity: 0;
 }
+
 @media (min-width: 768px) {
     .slide .sinistra {
     font-size: 50px;
@@ -282,4 +283,32 @@ body {
     padding-right: 0;
     padding-left: 0;
 }
+/*FEATURES*/
 
+.features {
+    margin-bottom: 70px;
+}
+
+.features h2 {
+    color: #031c4e;
+    font-weight: bold;
+    font-size: 33px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.features h3 {
+    color: #1a305e;
+}
+
+.features p {
+    color: #1a305e;
+}
+
+.features a {
+    text-decoration: none;
+}
+
+.features img {
+    padding-top: 50px;
+}
