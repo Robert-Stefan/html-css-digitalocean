@@ -386,7 +386,12 @@ body {
         color: gray;
         opacity: 1;
         }
-
+        .rocker .sinistra i {
+            color: gray;
+        }
+        .rocker .destra i {
+            color: black;
+        }
     .rocker .rockerbox .destra {
         font-size: 50px;
         position: absolute;
@@ -402,7 +407,12 @@ body {
     .rocker .rockerbox {
         width: 50%;
     }
-
+    .rocker .sinistra i {
+        color: gray;
+    }
+    .rocker .destra i {
+        color: black;
+    }
     .rocker .rockerbox .sinistra {
         font-size: 50px;
         position: absolute;
@@ -434,18 +444,22 @@ body {
         top: 50%;
         right: 105%;
         margin-top: -30px;
-        color: gray;
         opacity: 1;
-        }
-        .rocker .destra {
+    }
+    .rocker .sinistra i {
+        color: gray;
+    }
+    .rocker .destra i {
+        color: black;
+    }
+    .rocker .destra {
         font-size: 50px;
         position: absolute;
         top: 50%;
         left: 105%;
         margin-top: -30px;
-        color: black;
         opacity: 1;
-        }
+    }
 
 }
 
