@@ -209,4 +209,77 @@ body {
 .informations .infocont {
     margin-top: 10px;
 }
+/*SLIDE DESIGNS*/
+
+.design {
+    background-color: #f3f5f9;
+    padding-bottom: 80px;
+}
+
+.design h2 {
+    color: #031c4e;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.design p {
+    color: #586686;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.design img {
+    padding-top: 50px;
+}
+
+.design .text-slide {
+    color: #334770;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.slide .sinistra,
+.slide .destra {
+    opacity: 0;
+}
+@media (min-width: 768px) {
+    .slide .sinistra {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    right: 102%;
+    margin-top: -30px;
+    color: gray;
+    opacity: 1;
+    }
+
+    .slide .destra {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 102%;
+    margin-top: -30px;
+    color: black;
+    opacity: 1;
+    }
+}
+
+.slideballs .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #1482e2;
+}
+
+.full {
+    background-color: #1482e2;
+}
+
+.list-inline li {
+    padding-right: 0;
+    padding-left: 0;
+}
 
