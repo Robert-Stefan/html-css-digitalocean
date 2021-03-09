@@ -322,7 +322,6 @@ body {
 .features img {
     padding-top: 50px;
 }
-
 /*CUSTOMERS*/
 
 .customers {
@@ -349,24 +348,25 @@ body {
 .customers a {
     color: #0ebdcd;
 }
-
-
 /*ROCKER*/
+
 .rocker {
     background-color: #f3f5f9;
     padding-bottom: 70px;
+    position: relative;
 }
 
 .rocker h2 {
     color: #031c4e;
     font-weight: bold;
     font-size: 30px;
+    padding-top: 50px;
 }
 
 .rocker .rockerbox {
     background-color: #fff;
     position: relative;
-    width: 50%;
+    width: 60%;
     left: 50%;
     margin-top: 80px;
     margin-bottom: 40px;
@@ -374,6 +374,83 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 2%;
+}
+
+@media screen and (min-width: 768px) {
+    .rocker .rockerbox .sinistra {
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        right: 105%;
+        margin-top: -30px;
+        color: gray;
+        opacity: 1;
+        }
+
+    .rocker .rockerbox .destra {
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 105%;
+        margin-top: -30px;
+        color: black;
+        opacity: 1;
+        }
+}
+
+@media screen and (min-width: 992px) {
+    .rocker .rockerbox {
+        width: 50%;
+    }
+
+    .rocker .rockerbox .sinistra {
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        right: 105%;
+        margin-top: -30px;
+        color: gray;
+        opacity: 1;
+        }
+
+    .rocker .rockerbox .destra {
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 105%;
+        margin-top: -30px;
+        color: black;
+        opacity: 1;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+    .rocker .rockerbox {
+        width: 30%;
+    }
+    .rocker .sinistra {
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        right: 105%;
+        margin-top: -30px;
+        color: gray;
+        opacity: 1;
+        }
+        .rocker .destra {
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 105%;
+        margin-top: -30px;
+        color: black;
+        opacity: 1;
+        }
+
+}
+
+.rockerbox img {
+    margin: 0 auto;
 }
 
 .rockerbox .text-rocker {
@@ -394,6 +471,31 @@ body {
 }
 
 .rockerbox .linkrocker a {
-    padding-top: 50px;
     color: #227dff;
+    line-height: 60px;
+}
+
+.rocker .sinistra,
+.rocker .destra {
+    opacity: 0;
+}
+
+.balls .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #1482e2;
+}
+
+.balls .full {
+    background-color: #1482e2;
+}
+
+.list-inline li {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.list-inline {
+    text-align: center;
 }
