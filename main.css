@@ -599,3 +599,126 @@ header.main-header {
 .footer h4 {
     padding-top: 60px;
 }
+
+/*BLUE SHARK*/
+.blue-shark {
+    position: fixed;
+    bottom: 10%;
+    left: 5%;
+}
+
+.blue-shark .shark{
+    display: inline-block;
+    position: absolute;
+    bottom: 120%;
+    left: 0;
+    width: 60px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #026aff;
+}
+
+.blue-shark .shark img {
+    position: absolute;
+    top: 8%;
+    left: 0;
+}
+
+.blue-shark .shark .notification {
+    position: absolute;
+    left: 45px;
+    bottom: 40px;
+    width: 30px;
+    height: 30px;
+    line-height: 22px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: red;
+    color: white;
+}
+
+.blue-shark .question {
+    background-color: #fff;
+    color: #4c5d80;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 320px;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.blue-shark .question:after {
+    position: absolute;
+    top: 65%;
+    left: 100%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .blue-shark {
+        position: fixed;
+        bottom: 10%;
+        left: 70%;
+    }
+    
+    .blue-shark .shark{
+        display: inline-block;
+        position: absolute;
+        bottom: 120%;
+        left: 108%;
+        top: 0;
+        width: 65px;
+        height: 60px;
+        border-radius: 5px;
+        background-color: #026aff;
+    }
+    
+    .blue-shark .shark img {
+        position: absolute;
+        top: 8%;
+        left: 0;
+    }
+    
+    .blue-shark .shark .notification {
+        position: absolute;
+        left: 45px;
+        bottom: 40px;
+        width: 30px;
+        height: 30px;
+        line-height: 22px;
+        border-radius: 50%;
+        border: 4px solid white;
+        background-color: red;
+        color: white;
+    }
+    
+    .blue-shark .question {
+        background-color: #fff;
+        color: #4c5d80;
+        border-radius: 5px;
+        padding: 10px;
+        max-width: 320px;
+        padding-bottom: 1px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    .blue-shark .question:after {
+        position: absolute;
+        top: 65%;
+        left: 100%;
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 10px solid #fff;
+    }
+    
+}
